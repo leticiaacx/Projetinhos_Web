@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.teste {
+    /* <!--pegar a classe--> */
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/jpg/870526.png) ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.from{
+    height: 500px;
+    width: 350px;
+    background-color: rgba(235, 204, 156, 0.868);
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.inp{
+    margin-top: 10px;
+    height: 40px;
+    width: 90%;
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(227, 223, 176);
+    color: rgb(0, 0, 0);
+}
+
+.inp:focus{
+    outline: none;
+}
+
+.inp:hover{
+    border: solid 2px rgb(220, 172, 172);
+}
+
+#btn{
+    border: none;
+    height: 40px;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 7%;
+    cursor: pointer;
+    background-color: rgb(221, 217, 194);
+}
+
+#btn:hover{
+    background-color: rgb(224, 166, 166);
+}
+/* vh é pra altura  */
+/* vw pra largura */

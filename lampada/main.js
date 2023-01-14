@@ -28,4 +28,5 @@ lamp.addEventListener('mouseover', lampOn);
 lamp.addEventListener('mouseout', lampOff);
 lamp.addEventListener('dblclick', lampBrooken);
 
+
  

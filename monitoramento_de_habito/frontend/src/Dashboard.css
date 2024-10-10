@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: #e9ecef;
+    /* Cor de fundo suave para o corpo */
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Centraliza verticalmente */
+    padding: 10px 20px;
+    /* Padding horizontal para melhor espaçamento */
+    background-color: #8cb7e2;
+    /* Cor de fundo escura */
+    color: #ffffff;
+    /* Texto branco para contraste */
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.habits-list {
+    width: 100%;
+    max-width: 600px;
+    /* Limita a largura da lista de hábitos */
+    background-color: #ffffff;
+    /* Fundo branco para contraste */
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+    padding: 15px;
+    /* Padding interno */
+}
+
+.create-habit {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-habit input {
+    margin: 5px 0;
+    padding: 10px;
+    /* Aumenta o padding para maior conforto ao digitar */
+    border: 1px solid #ced4da;
+    /* Borda leve */
+    border-radius: 5px;
+    /* Bordas arredondadas */
+    width: 100%;
+    /* Preenche a largura disponível */
+    max-width: 300px;
+    /* Limita a largura do input */
+}
+
+.create-habit button {
+    margin-top: 10px;
+    /* Espaçamento entre o input e o botão */
+    padding: 10px 15px;
+    /* Padding do botão */
+    background-color: #007bff;
+    /* Cor de fundo do botão */
+    color: white;
+    /* Texto branco */
+    border: none;
+    /* Remove borda padrão */
+    border-radius: 5px;
+    /* Bordas arredondadas */
+    cursor: pointer;
+    /* Muda o cursor ao passar o mouse */
+}
+
+.create-habit button:hover {
+    background-color: #0056b3;
+    /* Cor do botão ao passar o mouse */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #fff;
+    /* Cor do título */
+}
+
+.bottom-bar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    /* Cor de fundo suave */
+}

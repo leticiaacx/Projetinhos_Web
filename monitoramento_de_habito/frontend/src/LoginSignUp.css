@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.login-signup-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./habitos12.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    /* Ajustado para que fique acima da imagem */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+    /* Deve ficar atrás da caixa de formulário */
+}
+
+.main-title {
+    font-size: 36px;
+    color: #ffff;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.welcome-message {
+    font-size: 25px;
+    color: #ffff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form-box {
+    margin-top: 80px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    /* Deve ser maior para que a caixa seja clicável */
+}
+
+h2 {
+    color: #007bff;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.pointer {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+}
